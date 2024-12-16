@@ -2432,6 +2432,10 @@ ul {
   display: table;
   width: 100%;
   height: 820px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('img/RLNS Co/STOCK IMAGE/Hoodied.png');
+  background-size: cover;
 }
 
 /* line 11, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
