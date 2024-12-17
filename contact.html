@@ -144,42 +144,66 @@
         <script>
           function initMap() {
             var uluru = {
-              lat: -25.363,
-              lng: 131.044
+              lat: 14.491127,
+              lng: 121.055498
             };
-            var grayStyles = [{
+    
+            // Define custom styles for the map
+            var grayStyles = [
+              {
                 featureType: "all",
-                stylers: [{
-                    saturation: -90
-                  },
-                  {
-                    lightness: 50
-                  }
+                stylers: [
+                  { saturation: -90 },
+                  { lightness: 50 }
                 ]
               },
               {
-                elementType: 'labels.text.fill',
-                stylers: [{
-                  color: '#ccdee9'
-                }]
+                elementType: "labels.text.fill",
+                stylers: [{ color: "#ccdee9" }]
               }
             ];
-            var map = new google.maps.Map(document.getElementById('map'), {
-              center: {
-                lat: -31.197,
-                lng: 150.744
-              },
-              zoom: 9,
+    
+            // Initialize the map
+            var map = new google.maps.Map(document.getElementById("map"), {
+              center: uluru,
+              zoom: 17, // Increased zoom for better view of the marker
               styles: grayStyles,
               scrollwheel: false
+            });
+    
+            // Add a marker at the specified location
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map,
+              title: "Pinned Location" // Tooltip text when hovering over the marker
             });
           }
         </script>
         <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap">
+          src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+          async
+          defer>
         </script>
-
       </div>
+    </div>
+
+
+    <div class="container">
+      <div class="contact-info text-center">
+        <h2 class="mb-3">CONTACT</h2>
+        <h3 class="mb-4">FLAGSHIP STORE INQUIRY</h3>
+        <p>Address: GENERAL SANTOS AVE., CENTRAL BICUTAN, TAGUIG CITY</p>
+        <h3 class="mt-4 mb-2">ONLINE TRANSACTION</h3>
+        <p>(+63) 978.543.9981</p>
+        <h3 class="mt-4 mb-3">SOCIAL MEDIA ACCOUNTS</h3>
+        <p>
+          <strong>Facebook:</strong> RLNS Clothing<br>
+          <strong>Instagram:</strong> @rlns.co<br>
+          <strong>Gmail:</strong> rlnsclothing@gmail.com
+        </p>
+      </div>
+    </div>
+    
 
 
       <div class="row">
