@@ -509,23 +509,22 @@ ul {
 .btn_3 {
   display: inline-block;
   padding: 9px 42px;
-  border-radius: 50px;
-  background-color: #ff3368;
-  border: 1px solid #ecfdff;
+  border-radius: 0px;
+  background-color: #ffffff;
+  border: 1px solid #2a2a2a;
   font-size: 15px;
   font-weight: 700;
-  color: #fff;
+  color: #2a2a2a;
   text-transform: uppercase;
   font-weight: 400;
-  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
-  border: 1px solid #ff3368;
+  border: 2px solid #2a2a2a;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 /* line 52, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_button.scss */
 .btn_3:hover {
-  background-color: red;
+  background-color: #2a2a2a;
   color: #fff;
 }
 
@@ -3876,13 +3875,13 @@ ul {
 .s_product_text h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #ff3368;
+  color: #2a2a2a;
   margin-bottom: 15px;
 }
 
 /* line 639, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_product.scss */
 .s_product_text .list li {
-  margin-bottom: 5px;
+  margin-bottom: 5px; 
 }
 
 /* line 642, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_product.scss */
@@ -5509,8 +5508,7 @@ ul {
 /* line 2042, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_product.scss */
 .s_product_text .btn_3 {
   padding: 13px 36px;
-  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
-  border: 1px solid #ff3368;
+  border: 1px solid #2a2a2a;
 }
 
 @media (max-width: 576px) {
